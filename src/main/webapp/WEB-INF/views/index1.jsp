@@ -115,10 +115,10 @@
 									<h1 style="color: #FFFFFF;">Iphone X11</h1>
 								</div>
 								<div class="layer-1-4  animated rotateInUpLeft">
-									<h3 style="color: red;">SALE UP TO 10%</h3>
+									<h3 style="color: red;">SALE UO TO 10%</h3>
 								</div>
 								<div class="layer-1-5 animated rotateInUpLeft">
-									<a href="<spring:url value='productById02?pId=108'/>">點我下單</a>
+									<a href="<spring:url value='productById02?pId=107'/>">點我下單</a>
 								</div>
 							</div>
 							<div class="tld-f2">
@@ -142,10 +142,10 @@
 									<h1>Dyson吸塵機器人</h1>
 								</div>
 								<div class="layer-2-4 animated slideInLeft">
-									<h3 style="color:red;">SALE UP TO 30%</h3>
+									<h3>SALE UO TO 30%</h3>
 								</div>
 								<div class="layer-2-5 animated bounceInUp">
-									<a href="<spring:url value='productById02?pId=147'/>">點我下單</a>
+									<a href="<spring:url value='productById02?pId=145'/>">點我下單</a>
 								</div>
 							</div>
 							<div class="sld-fr">
@@ -258,7 +258,7 @@
 												<div class="usal_pro">
 													<div class="product_name_2">
 														<h2>
-															<a href="#">${product01.pname}</a>
+															<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 														</h2>
 													</div>
 													<div class="price_box">
@@ -319,7 +319,7 @@
 										<div class="usal_pro">
 											<div class="product_name_2">
 												<h2>
-													<a href="#">${product01.pname}</a>
+													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 											<div class="product_price"></div>
@@ -380,7 +380,7 @@
 										<div class="usal_pro">
 											<div class="product_name_2">
 												<h2>
-													<a href="#">${product01.pname}</a>
+													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 											<div class="price_box">
@@ -445,7 +445,7 @@
 										<div class="usal_pro">
 											<div class="product_name_2">
 												<h2>
-													<a href="#">${product01.pname}</a>
+													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 
@@ -508,7 +508,7 @@
 										<div class="usal_pro">
 											<div class="product_name_2">
 												<h2>
-													<a href="#">${product01.pname}</a>
+													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 
@@ -587,7 +587,7 @@
 										<div class="usal_pro usal_pro_eb">
 											<div class="product_name_2">
 												<h2>
-													<a href="#">${product01.pname}</a>
+													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 
@@ -636,7 +636,7 @@
 						<div class="usal_pro usal_pro_eb">
 							<div class="product_name_2">
 								<h2>
-									<a href="#">${product01.pname}</a>
+									<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 								</h2>
 							</div>
 
@@ -685,7 +685,7 @@
 						<div class="usal_pro usal_pro_eb">
 							<div class="product_name_2">
 								<h2>
-									<a href="#">${product01.pname}</a>
+									<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 								</h2>
 							</div>
 
@@ -769,7 +769,7 @@
 							<li role="presentation" class="active"><a href="#home"
 								aria-controls="home" role="tab" data-toggle="tab">衣物</a></li>
 							<li role="presentation"><a href="#profile"
-								aria-controls="profile" role="tab" data-toggle="tab">精品名錶</a></li>
+								aria-controls="profile" role="tab" data-toggle="tab">3C/手錶</a></li>
 							<!-- 							<li role="presentation"><a href="#messages" -->
 							<!-- 								aria-controls="messages" role="tab" data-toggle="tab">Headlight</a></li> -->
 						</ul>
@@ -801,7 +801,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -846,8 +846,8 @@
 											</div>
 										</c:forEach>
 
-										<c:forEach var="product01" items='${products}' begin="38"
-											end="38">
+										<c:forEach var="product01" items='${products}' begin="44"
+											end="44">
 											<div class="col-md-12">
 												<div class="all-pros animated fadeInUp">
 													<div class="single_product">
@@ -868,7 +868,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -912,8 +912,8 @@
 												</div>
 											</div>
 										</c:forEach>
-										<c:forEach var="product01" items='${products}' begin="43"
-											end="43">
+										<c:forEach var="product01" items='${products}' begin="1"
+											end="1">
 											<div class="col-md-12">
 												<div class="all-pros animated fadeInUp">
 													<div class="single_product">
@@ -934,7 +934,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -978,8 +978,8 @@
 												</div>
 											</div>
 										</c:forEach>
-										<c:forEach var="product01" items='${products}' begin="59"
-											end="59">
+										<c:forEach var="product01" items='${products}' begin="60"
+											end="60">
 											<div class="col-md-12">
 												<div class="all-pros animated fadeInUp">
 													<div class="single_product">
@@ -1000,7 +1000,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1066,7 +1066,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1110,8 +1110,8 @@
 												</div>
 											</div>
 										</c:forEach>
-										<c:forEach var="product01" items='${products}' begin="61"
-											end="61">
+										<c:forEach var="product01" items='${products}' begin="59"
+											end="59">
 											<div class="col-md-12">
 												<div class="all-pros animated fadeInUp">
 													<div class="single_product">
@@ -1132,7 +1132,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1205,7 +1205,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1269,7 +1269,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1331,7 +1331,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1372,8 +1372,8 @@
 									</div>
 								</div>
 							</c:forEach>
-							<c:forEach var="product01" items='${products}' begin="65"
-								end="65">
+							<c:forEach var="product01" items='${products}' begin="111"
+								end="111">
 								<div class="col-md-12">
 									<div class="all-pros all-pros-3 animated fadeInUp">
 										<div class="single_product">
@@ -1393,7 +1393,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1434,8 +1434,8 @@
 									</div>
 								</div>
 							</c:forEach>
-							<c:forEach var="product01" items='${products}' begin="66"
-								end="66">
+							<c:forEach var="product01" items='${products}' begin="113"
+								end="113">
 								<div class="col-md-12">
 									<div class="all-pros all-pros-3 animated fadeInUp">
 										<div class="single_product">
@@ -1455,7 +1455,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1496,8 +1496,8 @@
 									</div>
 								</div>
 							</c:forEach>
-							<c:forEach var="product01" items='${products}' begin="67"
-								end="67">
+							<c:forEach var="product01" items='${products}' begin="112"
+								end="112">
 								<div class="col-md-12">
 									<div class="all-pros all-pros-3 animated fadeInUp">
 										<div class="single_product">
@@ -1517,7 +1517,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1558,8 +1558,8 @@
 									</div>
 								</div>
 							</c:forEach>
-							<c:forEach var="product01" items='${products}' begin="68"
-								end="68">
+							<c:forEach var="product01" items='${products}' begin="117"
+								end="117">
 								<div class="col-md-12">
 									<div class="all-pros all-pros-3 animated fadeInUp">
 										<div class="single_product">
@@ -1579,7 +1579,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1620,8 +1620,8 @@
 									</div>
 								</div>
 							</c:forEach>
-							<c:forEach var="product01" items='${products}' begin="69"
-								end="69">
+							<c:forEach var="product01" items='${products}' begin="122"
+								end="122">
 								<div class="col-md-12">
 									<div class="all-pros all-pros-3 animated fadeInUp">
 										<div class="single_product">
@@ -1641,7 +1641,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1682,6 +1682,131 @@
 									</div>
 								</div>
 							</c:forEach>
+							<c:forEach var="product01" items='${products}' begin="130"
+								end="130">
+								<div class="col-md-12">
+									<div class="all-pros all-pros-3 animated fadeInUp">
+										<div class="single_product">
+											<span>New</span>
+										</div>
+										<div class="sinle_pic">
+											<a
+												href="<spring:url value='productById02?pId=${product01.pId}'/>">
+												<img class="primary-img"
+												src="data:image/jpg;base64,${product01.base64Image}" alt="">
+												<img class="secondary-img"
+												src="data:image/jpg;base64,${product01.base64Image1}" alt="">
+											</a>
+										</div>
+
+										<div class="product_content">
+											<div class="usal_pro">
+												<div class="product_name_2">
+													<h2>
+														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+													</h2>
+												</div>
+
+												<div class="price_box">
+													<span class="spical-price">商品價錢 : ${product01.price}</span>
+												</div>
+												<div class="last_button_area">
+													<ul class="add-to-links clearfix">
+														<li class="addwishlist">
+															<div class="yith-wcwl-add-button show">
+																<a class="add_to_wishlist" href="" rel="nofollow"
+																	data-product-id="45" data-product-type="external"
+																	data-toggle="tooltip" title=""
+																	data-original-title="Add to Wishlist"><i
+																	class="fa fa-heart"></i></a>
+															</div>
+														</li>
+														<li>
+															<div class="new_act">
+																<a class="button_act" data-quick-id="45"
+																	href="<spring:url value='productById02?pId=${product01.pId}'/>"
+																	title="" data-toggle="tooltip"
+																	data-original-title="Donec non est at">詳細頁面</a>
+															</div>
+														</li>
+														<li class="addcompare">
+															<div class="woocommerce product compare-button">
+																<a class="compare button" href="" data-product_id="45"
+																	rel="nofollow" data-toggle="tooltip" title=""
+																	data-original-title="Compare"><i
+																	class="fa fa-refresh"></i></a>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</c:forEach>
+							<c:forEach var="product01" items='${products}' begin="120"
+								end="120">
+								<div class="col-md-12">
+									<div class="all-pros all-pros-3 animated fadeInUp">
+										<div class="single_product">
+											<span>New</span>
+										</div>
+										<div class="sinle_pic">
+											<a
+												href="<spring:url value='productById02?pId=${product01.pId}'/>">
+												<img class="primary-img"
+												src="data:image/jpg;base64,${product01.base64Image}" alt="">
+												<img class="secondary-img"
+												src="data:image/jpg;base64,${product01.base64Image1}" alt="">
+											</a>
+										</div>
+
+										<div class="product_content">
+											<div class="usal_pro">
+												<div class="product_name_2">
+													<h2>
+													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+													</h2>
+												</div>
+
+												<div class="price_box">
+													<span class="spical-price">商品價錢 : ${product01.price}</span>
+												</div>
+												<div class="last_button_area">
+													<ul class="add-to-links clearfix">
+														<li class="addwishlist">
+															<div class="yith-wcwl-add-button show">
+																<a class="add_to_wishlist" href="" rel="nofollow"
+																	data-product-id="45" data-product-type="external"
+																	data-toggle="tooltip" title=""
+																	data-original-title="Add to Wishlist"><i
+																	class="fa fa-heart"></i></a>
+															</div>
+														</li>
+														<li>
+															<div class="new_act">
+																<a class="button_act" data-quick-id="45"
+																	href="<spring:url value='productById02?pId=${product01.pId}'/>"
+																	title="" data-toggle="tooltip"
+																	data-original-title="Donec non est at">詳細頁面</a>
+															</div>
+														</li>
+														<li class="addcompare">
+															<div class="woocommerce product compare-button">
+																<a class="compare button" href="" data-product_id="45"
+																	rel="nofollow" data-toggle="tooltip" title=""
+																	data-original-title="Compare"><i
+																	class="fa fa-refresh"></i></a>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</c:forEach>
+
 
 						</div>
 					</div>
@@ -1747,7 +1872,7 @@
 					</div>
 				</div>
 			</div>
-			<c:forEach var="product01" items='${products}' begin="1" end="1">
+			<c:forEach var="product01" items='${products}' begin="21" end="21">
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12 text-right">
 						<div class="my-tabs">
@@ -1778,7 +1903,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1821,7 +1946,7 @@
 												</div>
 											</div>
 			</c:forEach>
-			<c:forEach var="product01" items='${products}' begin="7" end="7">
+			<c:forEach var="product01" items='${products}' begin="4" end="4">
 				<div class="col-md-12">
 					<div class="all-pros all-pros-3 animated fadeInUp">
 						<div class="single_product">
@@ -1841,7 +1966,7 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="#">${product01.pname}</a>
+									<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -1881,7 +2006,7 @@
 					</div>
 				</div>
 			</c:forEach>
-			<c:forEach var="product01" items='${products}' begin="77" end="77">
+			<c:forEach var="product01" items='${products}' begin="39" end="39">
 				<div class="col-md-12">
 					<div class="all-pros all-pros-3 animated fadeInUp">
 						<div class="single_product">
@@ -1901,7 +2026,7 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="#">${product01.pname}</a>
+									<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -1941,7 +2066,7 @@
 					</div>
 				</div>
 			</c:forEach>
-			<c:forEach var="product01" items='${products}' begin="76" end="76">
+			<c:forEach var="product01" items='${products}' begin="40" end="40">
 				<div class="col-md-12">
 					<div class="all-pros all-pros-3 animated fadeInUp">
 						<div class="single_product">
@@ -1961,7 +2086,7 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="#">${product01.pname}</a>
+										<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -2001,7 +2126,7 @@
 					</div>
 				</div>
 			</c:forEach>
-			<c:forEach var="product01" items='${products}' begin="71" end="71">
+			<c:forEach var="product01" items='${products}' begin="41" end="41">
 				<div class="col-md-12">
 					<div class="all-pros all-pros-3 animated fadeInUp">
 						<div class="single_product">
@@ -2021,7 +2146,7 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="#">${product01.pname}</a>
+									<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -2061,7 +2186,7 @@
 					</div>
 				</div>
 			</c:forEach>
-			<c:forEach var="product01" items='${products}' begin="70" end="70">
+			<c:forEach var="product01" items='${products}' begin="42" end="42">
 				<div class="col-md-12">
 					<div class="all-pros all-pros-3 animated fadeInUp">
 						<div class="single_product">
@@ -2081,7 +2206,7 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="#">${product01.pname}</a>
+										<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -2132,7 +2257,6 @@
 	</div>
 	<!--catagory area end-->
 	<!--lumia area start-->
-	<c:forEach var="product01" items='${products}' begin="91" end="91">
 	<div class="lumia_area">
 		<div class="container">
 			<div class="row">
@@ -2140,7 +2264,7 @@
 					<div class="plus_pic">
 						<div class="pix_new">
 
-							<a href="<spring:url value='productById02?pId=${product01.pId}'/>"> <img
+							<a href="#"> <img
 								src="<c:url value="/images/differ-pic/RAZER.jpg" />"
 								alt="">
 							</a>
@@ -2150,7 +2274,6 @@
 			</div>
 		</div>
 	</div>
-	</c:forEach>
 	<!--lumia area end-->
 	<!--top rate area start-->
 	<div class="top_rate_area">
@@ -2823,7 +2946,7 @@
 									</div>
 									<div class="blog_info">
 										<h3 class="post-title">
-											<a href="https://www.youtube.com/watch?time_continue=5&v=XY8oNoYRoxA">【電獺少女】Apple Watch Series 4 值不值得買？開箱體驗告訴你！</a>
+											<a href="#">【電獺少女】Apple Watch Series 4 值不值得買？開箱體驗告訴你！</a>
 										</h3>
 										<div class="post-excerpt">
 											● 內建 GPS 與 GLONASS <br>● 雙核心處理器 <br>● W3 無線晶片 <br>●
@@ -2848,7 +2971,7 @@
 									</div>
 									<div class="blog_info">
 										<h3 class="post-title">
-											<a href="https://www.youtube.com/watch?v=qfZz1DC051E">【滴妹】終於換新手機了！iPhoneXR上手一個月心得！</a>
+											<a href="#">【滴妹】終於換新手機了！iPhoneXR上手一個月心得！</a>
 										</h3>
 										<div class="post-excerpt">
 											● 6.1 吋 Liquid Retina 顯示器<br>● IP67 等級防潑抗水與防塵功能<br>●
@@ -2873,7 +2996,7 @@
 									</div>
 									<div class="blog_info">
 										<h3 class="post-title">
-											<a href="https://www.youtube.com/watch?v=rNfCuPMpy20">【3C老實說】Dyson V7 Trigger：繼承 Dyson V8 靈魂的中階機種</a>
+											<a href="#">【3C老實說】Dyson V7 Trigger：繼承 Dyson V8 靈魂的中階機種</a>
 										</h3>
 										<div class="post-excerpt">
 											● 動態負載感應器，根據不同地板改變馬達速度 <br> ● 最新V11數位馬達 每秒監測系統效能8000次 <br>●
@@ -2897,7 +3020,7 @@
 									</div>
 									<div class="blog_info">
 										<h3 class="post-title">
-											<a href="https://www.youtube.com/watch?v=LuIvZVT_XAQ">【3C TIM哥】Apple New Airpods(2代)藍芽耳機升級開箱！</a>
+											<a href="#">【3C TIM哥】Apple New Airpods(2代)藍芽耳機升級開箱！</a>
 										</h3>
 										<div class="post-excerpt">●輕點一下可為Apple裝置進行設定<br>●輕點兩下可快速存取 Siri 功能<br>
 										●置於充電盒中可快速充電<br>
@@ -2922,7 +3045,7 @@
 									</div>
 									<div class="blog_info">
 										<h3 class="post-title">
-											<a href="https://www.youtube.com/watch?v=JKFhBU6UxrY">【阿哲】我買了人生中第三台筆電 [#044]</a>
+											<a href="#">【阿哲】我買了人生中第三台筆電 [#044]</a>
 										</h3>
 										<div class="post-excerpt">
 										●Razer Blade 15承襲Blade系列筆電廣獲盛讚的外型設計<br>
@@ -2976,7 +3099,7 @@
 										<h3 class="follow_mix">Contact us:</h3>
 									</div>
 									<ul class="social-icons" style="margin-right: 90px;">
-										<li><a class="facebook social-icon" href="https://www.facebook.com/Karpy-%E5%8D%A1%E7%97%9E%E8%B3%BC%E7%89%A9%E5%95%86%E5%9F%8E-123766062359284/?modal=admin_todo_tour" title=""
+										<li><a class="facebook social-icon" href="#" title=""
 											target="_blank" data-toggle="tooltip"
 											data-original-title="Facebook"> <i class="fa fa-facebook"></i>
 										</a></li>
@@ -2984,7 +3107,7 @@
 											target="_blank" data-toggle="tooltip"
 											data-original-title="Google"> <i class="fa fa-google"></i>
 										</a></li>
-										<li><a class="social-icon instagram" href="https://www.instagram.com/kparyshopping_demo/?hl=zh-tw" title=""
+										<li><a class="social-icon instagram" href="#" title=""
 											target="_blank" data-toggle="tooltip"
 											data-original-title="instagram"> <i
 												class="fa fa-instagram"></i>
