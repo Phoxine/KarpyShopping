@@ -258,7 +258,7 @@
 												<div class="usal_pro">
 													<div class="product_name_2">
 														<h2>
-															<a href="#">${product01.pname}</a>
+															<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 														</h2>
 													</div>
 													<div class="price_box">
@@ -319,7 +319,7 @@
 										<div class="usal_pro">
 											<div class="product_name_2">
 												<h2>
-													<a href="#">${product01.pname}</a>
+													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 											<div class="product_price"></div>
@@ -380,7 +380,7 @@
 										<div class="usal_pro">
 											<div class="product_name_2">
 												<h2>
-													<a href="#">${product01.pname}</a>
+													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 											<div class="price_box">
@@ -445,7 +445,7 @@
 										<div class="usal_pro">
 											<div class="product_name_2">
 												<h2>
-													<a href="#">${product01.pname}</a>
+												<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 
@@ -508,7 +508,7 @@
 										<div class="usal_pro">
 											<div class="product_name_2">
 												<h2>
-													<a href="#">${product01.pname}</a>
+													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 
@@ -587,7 +587,7 @@
 										<div class="usal_pro usal_pro_eb">
 											<div class="product_name_2">
 												<h2>
-													<a href="#">${product01.pname}</a>
+													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 
@@ -636,7 +636,7 @@
 						<div class="usal_pro usal_pro_eb">
 							<div class="product_name_2">
 								<h2>
-									<a href="#">${product01.pname}</a>
+								<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 								</h2>
 							</div>
 
@@ -685,7 +685,7 @@
 						<div class="usal_pro usal_pro_eb">
 							<div class="product_name_2">
 								<h2>
-									<a href="#">${product01.pname}</a>
+								<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 								</h2>
 							</div>
 
@@ -801,7 +801,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -868,7 +868,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -934,7 +934,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1000,7 +1000,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1066,7 +1066,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1132,7 +1132,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1205,7 +1205,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1269,7 +1269,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1331,7 +1331,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1393,7 +1393,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1455,7 +1455,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1517,7 +1517,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1579,7 +1579,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1641,7 +1641,7 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="#">${product01.pname}</a>
+														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1778,7 +1778,7 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="#">${product01.pname}</a>
+																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1841,7 +1841,7 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="#">${product01.pname}</a>
+										<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -1901,7 +1901,7 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="#">${product01.pname}</a>
+										<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -1961,7 +1961,7 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="#">${product01.pname}</a>
+										<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -2021,7 +2021,7 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="#">${product01.pname}</a>
+										<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -2081,7 +2081,7 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="#">${product01.pname}</a>
+										<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
