@@ -172,10 +172,6 @@ public class MemberController {
 		return "redirect:/members";
 	}
 
-	
-	
-	
-	
 //修改會員控制器
 	@RequestMapping(value = "/updatemember", method = RequestMethod.GET)
 	public String Changemamber(Model model, HttpServletRequest request) {
@@ -200,9 +196,7 @@ public class MemberController {
 		return "redirect:/home";
 	}
 
-		
-	
-	//後台會員修改控制器
+	// 後台會員修改控制器
 //		@RequestMapping(value = "/updatemember1", method = RequestMethod.GET)
 //		public void updateMember(Model model, HttpServletRequest request) {
 //			HttpSession session = request.getSession();
@@ -225,34 +219,34 @@ public class MemberController {
 //			return "redirect:/adminMembers";
 //		}
 
-	//後台新增會員
+	// 後台新增會員
 
-		@RequestMapping(value = "/addMember")
-		public String addMember(@RequestParam("mId") Integer mId, @RequestParam("name") String name,
-				@RequestParam("account") String account, @RequestParam("password") String password,
-				@RequestParam("email") String email, @RequestParam("addr") String addr,
-				@RequestParam("gender") String gender,@RequestParam("tel") String tel,
-				@RequestParam("date") @DateTimeFormat(pattern = "yyyy/MM/dd") Date date, Model model) {
-			MemberBean mb =new MemberBean();
-			mb.setmId(mId);
-			mb.setName(name);
-			mb.setAccount(account);
-			mb.setPassword(password);
-			mb.setEmail(email);
-			mb.setAddr(addr);
-			mb.setGender(gender);
-			mb.setTel(tel);
-			mb.setBirthday(new java.sql.Timestamp(date.getTime()));		
-			service.addMember(mb);
-			return "redirect:/adminMembers";
-		}
-	
+	@RequestMapping(value = "/addMember")
+	public String addMember(@RequestParam("mId") Integer mId, @RequestParam("name") String name,
+			@RequestParam("account") String account, @RequestParam("password") String password,
+			@RequestParam("email") String email, @RequestParam("addr") String addr,
+			@RequestParam("gender") String gender, @RequestParam("tel") String tel,
+			@RequestParam("date") @DateTimeFormat(pattern = "yyyy/MM/dd") Date date, Model model) {
+		MemberBean mb = new MemberBean();
+		mb.setmId(mId);
+		mb.setName(name);
+		mb.setAccount(account);
+		mb.setPassword(password);
+		mb.setEmail(email);
+		mb.setAddr(addr);
+		mb.setGender(gender);
+		mb.setTel(tel);
+		mb.setBirthday(new java.sql.Timestamp(date.getTime()));
+		service.addMember(mb);
+		return "redirect:/adminMembers";
+	}
+
 	// 後台更新會員
 	@RequestMapping(value = "/updateMember1")
 	public String updateMember(@RequestParam("mId") Integer mId, @RequestParam("name") String name,
 			@RequestParam("account") String account, @RequestParam("password") String password,
 			@RequestParam("email") String email, @RequestParam("addr") String addr,
-			@RequestParam("gender") String gender,@RequestParam("tel") String tel,
+			@RequestParam("gender") String gender, @RequestParam("tel") String tel,
 			@RequestParam("date") @DateTimeFormat(pattern = "yyyy/MM/dd") Date date, Model model) {
 
 		MemberBean mb = new MemberBean();
@@ -262,7 +256,11 @@ public class MemberController {
 		mb.setPassword(password);
 		mb.setTel(tel);
 		mb.setAddr(addr);
-		mb.setBirthday(new java.sql.Timestamp(date.getTime()));
+         if (date != null) {
+			mb.setBirthday(new java.sql.Timestamp(date.getTime()));
+		}
+
+//		mb.setBirthday(new java.sql.Timestamp(date.getTime()));
 		mb.setEmail(email);
 		mb.setGender(gender);
 		service.updateMember(mb);

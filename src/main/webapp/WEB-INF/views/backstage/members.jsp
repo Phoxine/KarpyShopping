@@ -265,7 +265,7 @@ input {
 								</p>
 								<p>
 									<label for="birthday">Birthday :</label><input id="birthday"
-										name="birthday" type="date">
+										name="birthday" type="date" >
 								</p>
 								<p>
 									<label for="gender">Gender :</label><input id="gender"
@@ -309,7 +309,7 @@ input {
 								</p>
 								<p>
 									<label for="birthday">Birthday :</label><input id="birthday1"
-										name="birthday" type="date">
+										name="birthday" type="date" value="${Birthday}">
 								</p>
 								<p>
 									<label for="gender">Gender :</label><input id="gender1"
