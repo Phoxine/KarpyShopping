@@ -142,7 +142,7 @@
 									<h1>Dyson吸塵機器人</h1>
 								</div>
 								<div class="layer-2-4 animated slideInLeft">
-									<h3 style="color:red;">SALE UP TO 30%</h3>
+									<h3 style="color: red;">SALE UP TO 30%</h3>
 								</div>
 								<div class="layer-2-5 animated bounceInUp">
 									<a href="<spring:url value='productById02?pId=147'/>">點我下單</a>
@@ -258,7 +258,8 @@
 												<div class="usal_pro">
 													<div class="product_name_2">
 														<h2>
-															<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+															<a
+																href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 														</h2>
 													</div>
 													<div class="price_box">
@@ -319,7 +320,8 @@
 										<div class="usal_pro">
 											<div class="product_name_2">
 												<h2>
-													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+													<a
+														href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 											<div class="product_price"></div>
@@ -380,7 +382,8 @@
 										<div class="usal_pro">
 											<div class="product_name_2">
 												<h2>
-													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+													<a
+														href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 											<div class="price_box">
@@ -445,7 +448,8 @@
 										<div class="usal_pro">
 											<div class="product_name_2">
 												<h2>
-												<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+													<a
+														href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 
@@ -508,7 +512,8 @@
 										<div class="usal_pro">
 											<div class="product_name_2">
 												<h2>
-													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+													<a
+														href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 
@@ -587,7 +592,8 @@
 										<div class="usal_pro usal_pro_eb">
 											<div class="product_name_2">
 												<h2>
-													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+													<a
+														href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 												</h2>
 											</div>
 
@@ -636,7 +642,8 @@
 						<div class="usal_pro usal_pro_eb">
 							<div class="product_name_2">
 								<h2>
-								<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+									<a
+										href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 								</h2>
 							</div>
 
@@ -685,7 +692,8 @@
 						<div class="usal_pro usal_pro_eb">
 							<div class="product_name_2">
 								<h2>
-								<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+									<a
+										href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 								</h2>
 							</div>
 
@@ -801,7 +809,8 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+																	<a
+																		href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -868,7 +877,8 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+																	<a
+																		href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -934,7 +944,8 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+																	<a
+																		href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1000,7 +1011,8 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+																	<a
+																		href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1066,7 +1078,8 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+																	<a
+																		href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1132,7 +1145,8 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+																	<a
+																		href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1205,7 +1219,8 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+																	<a
+																		href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1269,7 +1284,8 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-													<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+														<a
+															href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1331,7 +1347,8 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+														<a
+															href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1393,7 +1410,8 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+														<a
+															href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1455,7 +1473,8 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+														<a
+															href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1517,7 +1536,8 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+														<a
+															href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1579,7 +1599,8 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+														<a
+															href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1641,7 +1662,8 @@
 											<div class="usal_pro">
 												<div class="product_name_2">
 													<h2>
-														<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+														<a
+															href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 													</h2>
 												</div>
 
@@ -1694,24 +1716,26 @@
 	</div>
 	<!--catagory area end-->
 	<!--differ pic area start-->
+	<c:forEach var="product01" items='${products}' begin="25" end="25">
 	<div class="differ_pic">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
 					<div class="plus_pic">
 						<div class="pix_new">
-							<a href="#"> <img
+							<a
+								href="<spring:url value='productById02?pId=${product01.pId}'/>"><img
 								src="<c:url value="/images/differ-pic/differ_pic_1.jpg" />"
-								alt="">
-
-							</a>
+								alt=""> </a>
 						</div>
 					</div>
 				</div>
+				</c:forEach>
+				
 				<div class="col-md-4">
 					<div class="plus_pic">
 						<div class="pix_new">
-							<a href="#"> <img
+							<a href="<spring:url value='getProductsByNoSearchCount?searchBy=3C'/>"> <img
 								src="<c:url value="/images/differ-pic/differ_pic_2.jpg" />"
 								alt="">
 
@@ -1722,7 +1746,7 @@
 				<div class="col-md-4">
 					<div class="plus_pic">
 						<div class="pix_new">
-							<a href="#"> <img
+							<a href="<spring:url value='getProductsByNoSearchCount?searchBy=名錶 手錶'/>"> <img
 								src="<c:url value="/images/differ-pic/differ_pic_3.jpg" />"
 								alt="">
 							</a>
@@ -1732,6 +1756,7 @@
 			</div>
 		</div>
 	</div>
+
 	<!--differ pic area end-->
 	<!--product catagory area start-->
 	<div class="catagory_area">
@@ -1778,7 +1803,8 @@
 														<div class="usal_pro">
 															<div class="product_name_2">
 																<h2>
-																	<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+																	<a
+																		href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 																</h2>
 															</div>
 
@@ -1841,7 +1867,8 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+										<a
+											href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -1901,7 +1928,8 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+										<a
+											href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -1961,7 +1989,8 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+										<a
+											href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -2021,7 +2050,8 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+										<a
+											href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -2081,7 +2111,8 @@
 							<div class="usal_pro">
 								<div class="product_name_2">
 									<h2>
-										<a href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
+										<a
+											href="<spring:url value='productById02?pId=${product01.pId}'/>">${product01.pname}</a>
 									</h2>
 								</div>
 
@@ -2133,23 +2164,24 @@
 	<!--catagory area end-->
 	<!--lumia area start-->
 	<c:forEach var="product01" items='${products}' begin="91" end="91">
-	<div class="lumia_area">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="plus_pic">
-						<div class="pix_new">
+		<div class="lumia_area">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="plus_pic">
+							<div class="pix_new">
 
-							<a href="<spring:url value='productById02?pId=${product01.pId}'/>"> <img
-								src="<c:url value="/images/differ-pic/RAZER.jpg" />"
-								alt="">
-							</a>
+								<a
+									href="<spring:url value='productById02?pId=${product01.pId}'/>">
+									<img src="<c:url value="/images/differ-pic/RAZER.jpg" />"
+									alt="">
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</c:forEach>
 	<!--lumia area end-->
 	<!--top rate area start-->
@@ -2823,7 +2855,10 @@
 									</div>
 									<div class="blog_info">
 										<h3 class="post-title">
-											<a href="https://www.youtube.com/watch?time_continue=5&v=XY8oNoYRoxA">【電獺少女】Apple Watch Series 4 值不值得買？開箱體驗告訴你！</a>
+											<a
+												href="https://www.youtube.com/watch?time_continue=5&v=XY8oNoYRoxA"
+												target="_blank">【電獺少女】Apple Watch Series 4
+												值不值得買？開箱體驗告訴你！</a>
 										</h3>
 										<div class="post-excerpt">
 											● 內建 GPS 與 GLONASS <br>● 雙核心處理器 <br>● W3 無線晶片 <br>●
@@ -2848,7 +2883,8 @@
 									</div>
 									<div class="blog_info">
 										<h3 class="post-title">
-											<a href="https://www.youtube.com/watch?v=qfZz1DC051E">【滴妹】終於換新手機了！iPhoneXR上手一個月心得！</a>
+											<a href="https://www.youtube.com/watch?v=qfZz1DC051E"
+												target="_blank">【滴妹】終於換新手機了！iPhoneXR上手一個月心得！</a>
 										</h3>
 										<div class="post-excerpt">
 											● 6.1 吋 Liquid Retina 顯示器<br>● IP67 等級防潑抗水與防塵功能<br>●
@@ -2873,7 +2909,9 @@
 									</div>
 									<div class="blog_info">
 										<h3 class="post-title">
-											<a href="https://www.youtube.com/watch?v=rNfCuPMpy20">【3C老實說】Dyson V7 Trigger：繼承 Dyson V8 靈魂的中階機種</a>
+											<a href="https://www.youtube.com/watch?v=rNfCuPMpy20"
+												target="_blank">【3C老實說】Dyson V7 Trigger：繼承 Dyson V8
+												靈魂的中階機種</a>
 										</h3>
 										<div class="post-excerpt">
 											● 動態負載感應器，根據不同地板改變馬達速度 <br> ● 最新V11數位馬達 每秒監測系統效能8000次 <br>●
@@ -2897,12 +2935,12 @@
 									</div>
 									<div class="blog_info">
 										<h3 class="post-title">
-											<a href="https://www.youtube.com/watch?v=LuIvZVT_XAQ">【3C TIM哥】Apple New Airpods(2代)藍芽耳機升級開箱！</a>
+											<a href="https://www.youtube.com/watch?v=LuIvZVT_XAQ"
+												target="_blank">【3C TIM哥】Apple New Airpods(2代)藍芽耳機升級開箱！</a>
 										</h3>
-										<div class="post-excerpt">●輕點一下可為Apple裝置進行設定<br>●輕點兩下可快速存取 Siri 功能<br>
-										●置於充電盒中可快速充電<br>
-										●豐富、高品質的音訊與聲音表現<br>
-										●可於不同裝置間順暢切換使用
+										<div class="post-excerpt">
+											●輕點一下可為Apple裝置進行設定<br>●輕點兩下可快速存取 Siri 功能<br>
+											●置於充電盒中可快速充電<br> ●豐富、高品質的音訊與聲音表現<br> ●可於不同裝置間順暢切換使用
 										</div>
 										<a href="<spring:url value='productById02?pId=119'/>"> <span
 											class="readmore-text">點此看商品</span>
@@ -2922,13 +2960,15 @@
 									</div>
 									<div class="blog_info">
 										<h3 class="post-title">
-											<a href="https://www.youtube.com/watch?v=JKFhBU6UxrY">【阿哲】我買了人生中第三台筆電 [#044]</a>
+											<a href="https://www.youtube.com/watch?v=JKFhBU6UxrY"
+												target="_blank">【阿哲】我買了人生中第三台筆電 [#044]</a>
 										</h3>
 										<div class="post-excerpt">
-										●Razer Blade 15承襲Blade系列筆電廣獲盛讚的外型設計<br>
-										●簡潔的霧面黑搭配鋁金屬材質，打造出時尚和耐用度兼具的筆電<br>
-										●2公分的厚度和2公斤的重量下，又搭載了高效能的硬體規格<br>
-										●RazerBlade 15在外型與效能中找到一個完美的平衡點。</div>
+											●Razer Blade 15承襲Blade系列筆電廣獲盛讚的外型設計<br>
+											●簡潔的霧面黑搭配鋁金屬材質，打造出時尚和耐用度兼具的筆電<br>
+											●2公分的厚度和2公斤的重量下，又搭載了高效能的硬體規格<br> ●RazerBlade
+											15在外型與效能中找到一個完美的平衡點。
+										</div>
 										<a href="<spring:url value='productById02?pId=92'/>"> <span
 											class="readmore-text">點此看商品</span>
 										</a>
@@ -2976,16 +3016,18 @@
 										<h3 class="follow_mix">Contact us:</h3>
 									</div>
 									<ul class="social-icons" style="margin-right: 90px;">
-										<li><a class="facebook social-icon" href="https://www.facebook.com/Karpy-%E5%8D%A1%E7%97%9E%E8%B3%BC%E7%89%A9%E5%95%86%E5%9F%8E-123766062359284/?modal=admin_todo_tour" title=""
-											target="_blank" data-toggle="tooltip"
+										<li><a class="facebook social-icon"
+											href="https://www.facebook.com/Karpy-%E5%8D%A1%E7%97%9E%E8%B3%BC%E7%89%A9%E5%95%86%E5%9F%8E-123766062359284/?modal=admin_todo_tour"
+											title="" target="_blank" data-toggle="tooltip"
 											data-original-title="Facebook"> <i class="fa fa-facebook"></i>
 										</a></li>
 										<li><a class="google-plus social-icon" href="#" title=""
 											target="_blank" data-toggle="tooltip"
 											data-original-title="Google"> <i class="fa fa-google"></i>
 										</a></li>
-										<li><a class="social-icon instagram" href="https://www.instagram.com/kparyshopping_demo/?hl=zh-tw" title=""
-											target="_blank" data-toggle="tooltip"
+										<li><a class="social-icon instagram"
+											href="https://www.instagram.com/kparyshopping_demo/?hl=zh-tw"
+											title="" target="_blank" data-toggle="tooltip"
 											data-original-title="instagram"> <i
 												class="fa fa-instagram"></i>
 										</a></li>
@@ -3142,8 +3184,8 @@
 
 	<script type="text/javascript"
 		src="${pageContext.request.contextPath }/js/time.js"></script>
-		
-		
+
+
 	<script>
 		$(document).ready(function() {
 			var qualification = "${memberLoginOK}";
@@ -3214,8 +3256,8 @@
 				}
 			});
 		});
-	</script>	
-		
+	</script>
+
 </body>
 </html>
 
