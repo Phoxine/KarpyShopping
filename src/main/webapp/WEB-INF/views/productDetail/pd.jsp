@@ -174,16 +174,7 @@
 								<h1>${product.pname}</h1>
 							
 							</div>
-							<div class="price_rating">
-								<a href="#"> <i class="fa fa-star"></i>
-								</a> <a href="#"> <i class="fa fa-star"></i>
-								</a> <a href="#"> <i class="fa fa-star"></i>
-								</a> <a href="#"> <i class="fa fa-star"></i>
-								</a> <a class="not-rated" href="#"> <i class="fa fa-star-o"></i>
-								</a> <a class="review-link" href="#"> ( <span class="count">2</span>
-									customer reviews)
-								</a>
-							</div>
+						
 						</div>
          <div  style="  background-color: #DDDDDD; width: 360px;height: 37px;">                     
                                                  <h3 style="font-weight: 500; ">售價:  ${product.price}</h3></div>

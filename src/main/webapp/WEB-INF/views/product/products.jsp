@@ -192,17 +192,19 @@ response.setDateHeader("Expires", 0);
 																</div>
 															</div>
 															<div class="action actionmm">
-																<div class="product_price product_price_tz">
-																	<div class="price_rating">
-																		<a href="#"><i class="fa fa-star"></i></a> <a href="#"><i
-																			class="fa fa-star"></i></a> <a href="#"> <i
-																			class="fa fa-star"></i>
-																		</a> <a href="#"> <i class="fa fa-star"></i>
-																		</a> <a href="#"> <i class="fa fa-star"></i>
-																		</a> <a class="not-rated" href="#"><i
-																			class="fa fa-star-o" aria-hidden="true"></i> </a>
-																	</div>
-																</div>
+<!-- 																<div class="product_price product_price_tz"> -->
+<!-- 																	<div class="price_rating"> -->
+<!-- 																		<a href="#"><i class="fa fa-star"></i></a> <a href="#"><i -->
+<!-- 																			class="fa fa-star"></i></a> <a href="#"> <i -->
+<!-- 																			class="fa fa-star"></i> -->
+<!-- 																		</a> <a href="#"> <i class="fa fa-star"></i> -->
+<!-- 																		</a> <a href="#"> <i class="fa fa-star"></i> -->
+<!-- 																		</a> <a href="#"> <i class="fa fa-star"></i> -->
+<!-- 																		</a> <a href="#"> <i class="fa fa-star"></i> -->
+<!-- 																		
+<!-- 																			 </a> -->
+<!-- 																	</div> -->
+<!-- 																</div> -->
 																<!-- price -->
 																<div class="price_box price_box_tz">
 																	<span class="spical-price">$ ${product.price}</span>
