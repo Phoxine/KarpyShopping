@@ -141,7 +141,7 @@
             <div class="mb-3">
               <label id="addrLabel" for="addr" class="h6"><strong>寄送地址:</strong></label>
               
-              <form:input type="text" class="form-control" style="background-color:white;" id="addr" path="addr" value='${memberLoginOK.addr}${name}' required="required" />
+              <form:input type="text" class="form-control" style="background-color:white;" id="addr" path="addr" value='${name}' required="required" />
               <div><strong class="text-danger">${insertError.emptyAddr }</strong></div>
               <div class="invalid-feedback">
                	<strong>此欄位不可為空白</strong> 
